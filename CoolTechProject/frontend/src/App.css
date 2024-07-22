@@ -1,0 +1,54 @@
+/* Reset default margin and padding */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif; /* Change font family if needed */
+}
+
+/* Header styles */
+.App-header {
+  background-color: #007bff; /* Change background color */
+  color: white;
+  padding: 20px; /* Add padding to the header */
+}
+
+/* Logo styles */
+.App-logo {
+  height: 80px; /* Adjust logo height */
+  animation: App-logo-spin infinite 3s linear; /* Change animation duration */
+}
+
+/* Link styles */
+.App-link {
+  color: #61dafb; /* Change link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.App-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Footer styles */
+.App-footer {
+  background-color: #f8f9fa; /* Change background color */
+  color: #333; /* Change text color */
+  padding: 20px; /* Add padding to the footer */
+  position: fixed; /* Fix footer to the bottom of the page */
+  bottom: 0;
+  width: 100%;
+}
+
+/* Animation for logo spin */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
