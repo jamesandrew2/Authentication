@@ -88,7 +88,7 @@ package-lock.json
 Node.js
 MongoDB
 
-# Backend
+## Backend
 Navigate to the backend directory:
 cd backend
 
@@ -104,7 +104,7 @@ node seed.js
 # Start the server:
 npm start
 
-# Frontend
+## Frontend
 
 # Navigate to the frontend directory:
 cd frontend
